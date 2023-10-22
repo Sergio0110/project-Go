@@ -116,12 +116,12 @@ style</a></li>
                 <h2 class="headlines booking__space" id="booking">Забронировать зал просто</h2>
                     <fieldset>
                         <legend class="booking__subtitle">Выбери зал</legend>
-                            <ul class="booking__hall-selection">
-                                <li class="booking__hall-button">80’s vibes</button></li>
-                                <li><button class="booking__hall-button">Star wars</button></li>
-                                <li><button class="booking__hall-button">wild west</button></li>
-                                <li><button class="booking__hall-button">neon style</button></li>
-                            </ul>
+                            <div class="booking__hall-selection">
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">80’s vibes</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">Star wars</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">wild west</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">neon style</label>
+                            </div>
                     </fieldset>
 
                     <fieldset>
@@ -150,33 +150,33 @@ style</a></li>
                             </ul>
                         </div>
                     </fieldset>
-                        <fieldset>
-                            <legend class="booking__subtitle">Выбери дату и время</legend>
-                                <div class="booking__select-position">
-                                    <div class="booking__collon1">
-                                        <div class="booking__set booking__select-position">
-                                            <label for="date"> <input class="booking__date-time" type="date" name="date" id="date" required></label>
-                                            <label for="time"><input class="booking__date-time" type="time" name="time" id="time" required></label>
-                                        </div>
-
-                                        <div class="booking__people-number">
-                                            <label for="numbofpeople"><input class="booking__people" type="number" name="number of people" id="numbofpeople" placeholder="Сколько человек" required></label>
-                                        </div>
+                    <fieldset>
+                        <legend class="booking__subtitle">Выбери дату и время</legend>
+                            <div class="booking__select-position">
+                                <div class="booking__collon1">
+                                    <div class="booking__set booking__select-position">
+                                        <label for="date"> <input class="booking__date-time" type="date" name="date" id="date" required></label>
+                                        <label for="time"><input class="booking__date-time" type="time" name="time" id="time" required></label>
                                     </div>
 
-                                    <div class="booking__select-position booking__collon">
-                                        <label for="name">Имя <input class="booking__people" type="text" name="name" id="name" required></label>
-                                        <label for="surname"> Фамилия <input class="booking__people" type="text" name="surname" id="surname" required></label>
-                                    </div>
-
-                                    <div class="booking__select-position booking__collon">
-                                        <label for="number">Телефон<input class="booking__people" type="tel" name="number" id="number" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
-                                        <label for="surname">E-mail<input class="booking__people" type="text" name="surname" id="surname" required></label>
+                                    <div class="booking__people-number">
+                                        <label for="numbofpeople"><input class="booking__people" type="number" name="number of people" id="numbofpeople" placeholder="Сколько человек" required></label>
                                     </div>
                                 </div>
-                        </fieldset>
+
+                                <div class="booking__select-position booking__collon">
+                                    <label for="name">Имя <input class="booking__people" type="text" name="name" id="name" required></label>
+                                    <label for="surname"> Фамилия <input class="booking__people" type="text" name="surname" id="surname" required></label>
+                                </div>
+
+                                <div class="booking__select-position booking__collon">
+                                    <label for="number">Телефон<input class="booking__people" type="tel" name="number" id="number" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
+                                    <label for="surname">E-mail<input class="booking__people" type="text" name="surname" id="surname" required></label>
+                                </div>
+                            </div>
+                    </fieldset>
                         <div class="booking__button-book">
-                            <button class="booking__button">забронировать</button>
+                            <button class="booking__button" input type="submit">забронировать</button>
                         </div>
                     </form>
             </div>

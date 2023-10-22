@@ -36,6 +36,12 @@ fieldset {
   color: #211E1E;
   border-radius: 8px;
   background: #FFF;
+  padding-top: 7px;
+  }
+
+  .booking__check {
+    display: none;
+    
   }
 
   .booking__hall-selection {
@@ -50,7 +56,7 @@ fieldset {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 67px;
-  gap: 100px;
+  gap: 165px;
   }
 
 
@@ -166,3 +172,4 @@ line-height: 28px;
   height: 25px;
   margin-right: 12px;
 }
+
