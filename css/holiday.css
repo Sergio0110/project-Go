@@ -1,0 +1,39 @@
+.headlines {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+
+.holiday__presentation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.holiday__text {
+  position: absolute;
+  top: 70%;
+  left: 21%;
+  transform: translate(-10%, -10%);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.holiday__picture {
+  position: relative;
+  display: inline-block;
+}
+
+.holiday__images {
+  max-width: 100%;
+  height: auto;
+}

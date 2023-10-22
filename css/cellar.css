@@ -1,0 +1,94 @@
+.cellar__address-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 38px;
+}
+
+.cellar__items {
+  position: relative;
+  padding-left: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.cellar__items::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cellar__location {
+  max-width: 350px;
+  text-transform: none;
+  margin-bottom: 38px;
+}
+
+.cellar__location::before {
+  background-image: url("../img/location.svg");
+}
+
+.cellar__phone {
+  margin-bottom: 11px;
+}
+
+.cellar__phone::before {
+  background-image: url("../img/phone-call.svg");
+}
+
+.cellar__envelope::before {
+  background-image: url("../img/envelope.svg");
+}
+
+.cellar {
+  padding: 50px 0;
+}
+
+.cellar__item {
+  display: inline-block;
+}
+
+.cellar__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.cellar__adress {
+
+}
+
+.cellar__map {
+  width: 680px;
+  height: 274px;
+}
+
+.cellar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 154px;
+}
+
+.cellar__signature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cellar__signtures {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+  margin: 0;
+}

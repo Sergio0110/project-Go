@@ -1,0 +1,58 @@
+
+.visitor-reviews {
+  margin: 0 auto;
+}
+
+.reviews__img {
+  width: 280px;
+  height: 280px;
+  
+}
+
+.reviews__text {
+  display: inline-block;
+  width: 674px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 52px;
+  margin-bottom: 0;
+}
+
+.reviews__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.reviews__signature {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.reviews__figure {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.reviews__item {
+  margin-bottom: 50px;
+  max-width: 1440px;
+}
+
+.reviews__list {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.reviews__list :last-child {
+  margin-bottom: 0px;
+}
