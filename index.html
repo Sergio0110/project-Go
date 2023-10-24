@@ -43,10 +43,8 @@
                         <p class="banner__new-hall">Новейшая аппаратура</p>
                     </div>
                 </div>
-            <div class="banner__wrapper">
-                <a href="#booking"><div class="banner__book">забронировать</div></a> 
-            </div>
-            <a href="#next-halls">
+                <a href="#booking" class="banner__wrapper banner__book">забронировать</a>
+                <a href="#next-halls">
                 <svg class="banner__btn" xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
                 <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
                 <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
@@ -112,9 +110,10 @@ style</a></li>
         </section>
 
         <section class="booking" id="">
-            <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
             <div class="container booking__color">
-                <h2 class="headlines booking__space" id="booking">Забронировать зал просто</h2>
+                <form action="https://jsonplaceholder.typicode.com/posts" method="POST"></form>
+                <h2 class="headlines" id="booking">Забронировать зал просто</h2>
+                
                     <fieldset>
                         <legend class="booking__subtitle">Выбери зал</legend>
                             <div class="booking__hall-selection">
@@ -150,96 +149,37 @@ style</a></li>
                             </fieldset>
                         </fieldset>
 
-                    <fieldset>
-                        <legend class="booking__subtitle">Выбери дату и время</legend>
-                            <div class="booking__select-position">
-                                <div class="booking__collon1">
-                                    <div class="booking__set booking__select-position">
-                                        <label for="date"> <input class="booking__date-time" type="date" name="date" id="date" required></label>
-                                        <label for="time"><input class="booking__date-time" type="time" name="time" id="time" required></label>
+                        <fieldset>
+                            <legend class="booking__subtitle">Выбери дату и время</legend>
+                                <div class="booking__select-position">
+                                    <div class="booking__collon1">
+                                        <div class="booking__set booking__select-position">
+                                            <label for="date"> <input class="booking__date-time" type="date" name="date" id="date" required></label>
+                                            <label for="time"><input class="booking__date-time" type="time" name="time" id="time" required></label>
+                                        </div>
+
+                                        <div class="booking__people-number">
+                                            <label for="numbofpeople"><input class="booking__people" type="number" name="number of people" id="numbofpeople" placeholder="Сколько человек" required></label>
+                                        </div>
                                     </div>
 
-                                    <div class="booking__people-number">
-                                        <label for="numbofpeople"><input class="booking__people" type="number" name="number of people" id="numbofpeople" placeholder="Сколько человек" required></label>
+                                    <div class="booking__select-position booking__collon">
+                                        <label for="name">Имя <input class="booking__people" type="text" name="name" id="name" required></label>
+                                        <label for="surname"> Фамилия <input class="booking__people" type="text" name="surname" id="surname" required></label>
+                                    </div>
+
+                                    <div class="booking__select-position booking__collon">
+                                        <label for="number">Телефон<input class="booking__people" type="tel" name="number" id="number" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
+                                        <label for="surname">E-mail<input class="booking__people" type="text" name="surname" id="surname" required></label>
                                     </div>
                                 </div>
-
-                                <div class="booking__select-position booking__collon">
-                                    <label for="name">Имя <input class="booking__people" type="text" name="name" id="name" required></label>
-                                    <label for="surname"> Фамилия <input class="booking__people" type="text" name="surname" id="surname" required></label>
-                                </div>
-
-                                <div class="booking__select-position booking__collon">
-                                    <label for="number">Телефон<input class="booking__people" type="tel" name="number" id="number" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
-                                    <label for="surname">E-mail<input class="booking__people" type="text" name="surname" id="surname" required></label>
-                                </div>
+                        </fieldset>
+                            <div class="booking__button-book">
+                                <button class="booking__button" input type="submit">забронировать</button>
                             </div>
-                    </fieldset>
-                        <div class="booking__button-book">
-                            <button class="booking__button" input type="submit">забронировать</button>
-                        </div>
-            </form>
+                    </form>
             </div>
         </section>
-
-                    <!-- ================================================================================
-                        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
-                            <fieldset>
-                                <input type="radio" name="hall" value="80`s vibes" id="80`s vibes"> <label for="80`s vibes">80`s vibes</label>
-                                <input type="radio" name="hall" value="Star wars" id="Star wars"> <label for="Star wars">Star wars</label>
-                                <input type="radio" name="hall" value="Wild west" id="Wild west"><label for="Wild west">Wild west</label>
-                                <input type="radio" name="hall" value="Neon style" id="Neon style"> <label for="Neon style">Neon style</label>                        
-                            </fieldset>
-                            
-                            <fieldset>
-                                <legend>Собери набор развлечениий</legend>                  
-                                    <fieldset>
-                                        <legend>Приставка:</legend>
-                                            <label><input type="radio" name="console" value="PlayStation"> PlayStation</label>
-                                            <label><input type="radio" name="console" value="Sega Mega Drive"> Sega Mega Drive</label>
-                                            <label><input type="radio" name="console" value="X-Box One S"> X-Box One S</label>
-                                            <label><input type="radio" name="console" value="Dendy">Dendy</label>
-                                    </fieldset>
-                            </fieldset>
-
-                            <fieldset>
-                                <legend>Настольные игры:</legend>
-                                    <label><input type="checkbox" name="boardGames" value="Jenga"> Jenga</label>
-                                    <label><input type="checkbox" name="boardGames" value="Monopoly"> Monopoly</label>
-                                    <label><input type="checkbox" name="boardGames" value="Манчкнин"> Манчкнин</label>
-                                    <label><input type="checkbox" name="boardGames" value="Alias"> Alias</label>
-                            </fieldset>
-                                
-                            <fieldset>
-                                <legend>Дополнительно:</legend>
-                                    <label><input type="checkbox" checked name="optional" value="karaoke">Караоке</label>
-                                    <label><input type="checkbox" name="optional" value="VR">VR</label>
-                            </fieldset>
-                                
-                            <fieldset>
-                                <legend>Выберите дату и время</legend>
-                                        <label for="date">Дата*</label>
-                                            <input type="date" name="date" id="date" required>                       
-                                        <label for="time">Время*</label>
-                                            <input type="time" name="time" id="time" required>                     
-                                        <label for="numbofpeople">Количество человек*</label> 
-                                            <input type="number" name="number of people" id="numbofpeople" required>                                                
-                                        <label for="name">Имя*</label>
-                                            <input type="text" name="name" id="name" placeholder="Введите ваше имя"required></label>                                              
-                                        <label for="surname"> Фамилия*</label>
-                                            <input type="text" name="surname" id="surname" placeholder="Введите фамилию" required>                                                    
-                                        <label for="number">Номер телефона*</label> 
-                                            <input type="tel" name="number" id="number" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>                                                 
-                                            <label for="surname"> Фамилия*</label>
-                                            <input type="text" name="surname" id="surname" placeholder="Введите фамилию" required>
-                                        <label for="data processing"></label>
-                            </fieldset>                   
-                                <button type="submit" value="button">Забронировать</button>   
-                                <input type="checkbox" name="concord" id="data processing" value="yes" required> Согласен на обработку данных                     
-                            </form>                        
-                
-            </div>
-        </section>     -->
 
         <section class="about" id="aboutUs">
             <div class="container">

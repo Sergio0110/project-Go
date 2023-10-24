@@ -1,5 +1,5 @@
 .booking {
-  justify-content: center;
+  background-color: #440F51;
 }
 
 .booking__main-subtitle {
@@ -12,13 +12,10 @@
 }
 
 .booking__color {
-  background-color: #440F51;
-  padding-bottom: 80px;
+
+  padding: 80px 130px;
 }
 
-.booking__space {
-  padding-top: 80px;
-}
 
 fieldset {
   border: none;
@@ -123,7 +120,6 @@ fieldset {
   background: #FFF;
   width: 250px;
   height: 55px;
-  flex-shrink: 0;
   color: #6C0287;
   font-size: 22px;
   font-style: normal;

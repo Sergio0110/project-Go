@@ -66,21 +66,17 @@
   background: #6C0287;
   width: 374px;
   height: 80px;
-  flex-shrink: 0;
   font-size: 26px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
   padding-top: 27px;
+  padding-left: 69px;
   }
 
 .banner__wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 668px;
-  align-items: self-end;
 }
 
 .banner__btn {
