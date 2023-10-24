@@ -57,7 +57,7 @@
   line-height: normal;
   text-align: center;
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   }
 
 
@@ -73,7 +73,6 @@
   text-transform: uppercase;
   text-align: center;
   padding-top: 27px;
-  margin-bottom: 82px;
   }
 
 .banner__wrapper {
@@ -84,12 +83,14 @@
   align-items: self-end;
 }
 
-.banner__next-button {
-  display: flex;
+.banner__btn {
+  position: absolute;
+  left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 90px;
 }
 
-  .banner__four {
+.banner__four {
   color: #CD06FF;
   font-family: Arial;
   font-size: 100px;

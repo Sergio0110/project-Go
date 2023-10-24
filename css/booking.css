@@ -2,8 +2,18 @@
   justify-content: center;
 }
 
+.booking__main-subtitle {
+  display: flex;
+  margin-bottom: 67px;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: auto;
+  margin-bottom: 67px;
+}
+
 .booking__color {
-  background-color: #440F51;;
+  background-color: #440F51;
+  padding-bottom: 80px;
 }
 
 .booking__space {
@@ -39,26 +49,17 @@ fieldset {
   padding-top: 7px;
   }
 
-  .booking__check {
-    display: none;
-    
-  }
+.booking__check {
+  display: none;
+  
+}
 
-  .booking__hall-selection {
+.booking__hall-selection {
   display: flex;
   justify-content:center;
   gap: 59px;
   margin-bottom: 68px;
-  }
-
-  .booking__entertainment-set {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 67px;
-  gap: 165px;
-  }
-
+}
 
 .booking__console {
   display: flex;
@@ -75,10 +76,11 @@ fieldset {
 }
 
 .booking__description {
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 24px;
 }
 
 .booking__data {
@@ -114,7 +116,6 @@ line-height: 28px;
   display: flex;
   justify-content: flex-end;
   width: 1089px;
-  padding-bottom: 80px;
 }
 
 .booking__button {

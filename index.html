@@ -11,23 +11,22 @@
 
 <body>
 <header class="menu">
-    <div class="container">
-        <div class="general-class">
-            <div class="logotype">
-            <img src="./img/logoGo.svg" alt="">
-            </div>
-            <nav>
-                <ul class="menu__list">
-                    <li class="menu__text">залы</li>
-                    <li class="menu__text">О нас</li>
-                    <li class="menu__text">Бронь</li>
-                    <li class="menu__text">отзывы</li>
-                    <li class="menu__text">Контакты</li>
-                </ul>
-            </nav>
-            <button class="menu__button">Заказать звонок</button>
+    <div class="menu__container container">
+        <div class="logotype">
+        <img src="./img/logoGo.svg" alt="">
         </div>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__text">залы</li>
+                <li class="menu__text">О нас</li>
+                <li class="menu__text">Бронь</li>
+                <li class="menu__text">отзывы</li>
+                <li class="menu__text">Контакты</li>
+            </ul>
+        </nav>
+        <button class="menu__button">Заказать звонок</button>
     </div>
+    
 </header>
     <main>
         <section class="banner">
@@ -46,11 +45,8 @@
                 </div>
             <div class="banner__wrapper">
                 <a href="#booking"><div class="banner__book">забронировать</div></a> 
-
-                <div>
-                    <a href="#next-halls"><img class="banner__next-button" src="./img/down.svg" alt=""></a>
-                </div>
             </div>
+            <a href="#next-halls"><img class="banner__btn" src="./img/down.svg" alt=""></a>
         </div>
         </section>
 
@@ -123,32 +119,32 @@ style</a></li>
                             </div>
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="booking__main-subtitle">
                         <legend class="booking__subtitle">Собери набор развлечений</legend>
-                                <div class="booking__entertainment-set">
-                                    <ul class="booking__console">
-                                        <legend class="booking__description">Приставка:</legend>
-                                        <li class="booking__label-item"><label><input class="booking__checkbox" type="radio" name="console" value="PlayStation"> PlayStation</label></li>
-                                        <li class="booking__label-item"><label><input class="booking__checkbox" type="radio" name="console" value="Sega Mega Drive"> Sega Mega Drive</label></li>
-                                        <li class="booking__label-item"><label><input class="booking__checkbox" type="radio" name="console" value="X-Box One S"> X-Box One S</label></li>
-                                        <li class="booking__label-item"><label><input class="booking__checkbox" type="radio" name="console" value="Dendy">Dendy</label></li>
-                                    </ul>
+                            <fieldset class="booking__console">
+                                <legend class="booking__description ">Приставка:</legend>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="PlayStation"> PlayStation</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Sega Mega Drive"> Sega Mega Drive</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="X-Box One S"> X-Box One S</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Dendy">Dendy</label>
+                            </fieldset>
 
-                            <ul class="booking__console">
+                            <fieldset class="booking__console">
                                 <legend class="booking__description">Настольные игры</legend>
-                                <li class="booking__label-item"><label><input class="booking__checkbox" type="checkbox" name="boardGames" value="Jenga"> Jenga</label></li>
-                                <li class="booking__label-item"><label><input class="booking__checkbox" type="checkbox" name="boardGames" value="Monopoly"> Monopoly</label></li>
-                                <li class="booking__label-item"><label><input class="booking__checkbox" type="checkbox" name="boardGames" value="Манчкнин"> Манчкин</label></li>
-                                <li class="booking__label-item"><label><input class="booking__checkbox" type="checkbox" name="boardGames" value="Alias"> Alias</label></li>
-                            </ul>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Jenga"> Jenga</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Monopoly"> Monopoly</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Манчкнин"> Манчкин</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Alias"> Alias</label>
+                            </fieldset>
                                 
-                            <ul class="booking__console">
+                            <fieldset class="booking__console">
                                 <legend class="booking__description"> Дополнительно</legend>
-                                <li class="booking__label-item"><label><input class="booking__checkbox" type="checkbox" checked name="optional" value="karaoke">Караоке</label></li>
-                                <li class="booking__label-item"><label> <input class="booking__checkbox" type="checkbox" name="optional" value="VR">VR</label></li>
-                            </ul>
-                        </div>
-                    </fieldset>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" checked name="optional" value="karaoke">Караоке</label></li>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="optional" value="VR">VR</label></li>
+                            </fieldset>
+                        </fieldset>
+                        
+                        
                     <fieldset>
                         <legend class="booking__subtitle">Выбери дату и время</legend>
                             <div class="booking__select-position">
@@ -177,7 +173,7 @@ style</a></li>
                         <div class="booking__button-book">
                             <button class="booking__button" input type="submit">забронировать</button>
                         </div>
-                    </form>
+            </form>
             </div>
         </section>
 
