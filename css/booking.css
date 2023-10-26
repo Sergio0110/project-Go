@@ -11,10 +11,7 @@
   margin-bottom: 67px;
 }
 
-.booking__color {
 
-  padding: 80px 130px;
-}
 
 
 fieldset {
@@ -37,6 +34,7 @@ fieldset {
   font-weight: 700;
   line-height: 40px;
   text-align: center;
+  cursor: pointer;
   text-transform: uppercase;
   width: 250px;
   height: 55px;
