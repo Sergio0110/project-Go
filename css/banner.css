@@ -1,4 +1,5 @@
 .banner__container {
+  position: relative;
   background-image: url('../img/gameover.png');
   min-height: 900px;
   background-repeat: no-repeat;
@@ -32,6 +33,13 @@
   }
 
 
+.banner__btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 90px;
+}
+
 .banner__description {
   display: flex;
   align-items: flex-end;
@@ -64,26 +72,12 @@
   .banner__book {
   border-radius: 10px;
   background: #6C0287;
-  width: 374px;
-  height: 80px;
   font-size: 26px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
-  text-align: center;
-  padding-top: 27px;
-  padding-left: 69px;
+  padding: 27px 69px;
   }
-
-.banner__wrapper {
-  display: flex;
-}
-
-.banner__btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .banner__four {
   color: #CD06FF;
@@ -106,3 +100,4 @@
   font-variant: all-small-caps;
   margin-bottom: 0;
 }
+

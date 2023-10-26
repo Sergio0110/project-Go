@@ -43,9 +43,9 @@
                         <p class="banner__new-hall">Новейшая аппаратура</p>
                     </div>
                 </div>
-                <a href="#booking" class="banner__wrapper banner__book">забронировать</a>
-                <a href="#next-halls">
-                <svg class="banner__btn" xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
+                <a href="#booking" class="banner__book">забронировать</a>
+                <a href="#next-halls" class="banner__btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
                 <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
                 <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
                 <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
@@ -111,8 +111,8 @@ style</a></li>
 
         <section class="booking" id="">
             <div class="container">
-                <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
                 <h2 class="headlines" id="booking">Забронировать зал просто</h2>
+                <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
                     <fieldset>
                         <legend class="booking__subtitle">Выбери зал</legend>
                             <div class="booking__hall-selection">
@@ -148,7 +148,7 @@ style</a></li>
                             </fieldset>
                         </fieldset>
 
-                        <fieldset>
+                        <fieldset class="booking__widget">
                             <legend class="booking__subtitle">Выбери дату и время</legend>
                                 <div class="booking__select-position">
                                     <div class="booking__collon1">

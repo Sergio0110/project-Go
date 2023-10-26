@@ -11,8 +11,9 @@
   margin-bottom: 67px;
 }
 
-
-
+.booking__widget {
+  margin-bottom: 40px;
+}
 
 fieldset {
   border: none;
@@ -88,7 +89,6 @@ fieldset {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 80px;
 }
 
 .booking__collon {
