@@ -45,11 +45,11 @@
                 </div>
                 <a href="#booking" class="banner__book">забронировать</a>
                 <a href="#next-halls" class="banner__btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewBox="0 0 97 97" fill="none">
-                <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
-                <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
-                <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="97" height="97" viewbox="0 0 97 97" fill="none">
+                        <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
+                        <rect x="34.4253" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4253 43.9162)" fill="white"/>
+                        <rect x="48.5806" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5806 58.0737)" fill="white"/>
+                    </svg>
                 </a>
         </div>
         </section>
@@ -117,9 +117,9 @@ style</a></li>
                         <legend class="booking__subtitle">Выбери зал</legend>
                             <div class="booking__hall-selection">
                                 <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">80’s vibes</label>
-                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">Star wars</label>
-                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">wild west</label>
-                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="80s-vibes">neon style</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="Star wars">Star wars</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="wild west">wild west</label>
+                                <label tabindex="0" class="booking__hall-button"> <input class="booking__check" type="radio" name="room" value="neon style">neon style</label>
                             </div>
                     </fieldset>
 
@@ -127,24 +127,34 @@ style</a></li>
                         <legend class="booking__subtitle">Собери набор развлечений</legend>
                             <fieldset class="booking__console">
                                 <legend class="booking__description ">Приставка:</legend>
-                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="PlayStation"> PlayStation</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Sega Mega Drive"> Sega Mega Drive</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="X-Box One S"> X-Box One S</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Dendy">Dendy</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="PlayStation">
+                                    <span class="booking__check-style"></span> PlayStation</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Sega Mega Drive">
+                                    <span class="booking__check-style"></span> Sega Mega Drive</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="X-Box One S">
+                                    <span class="booking__check-style"></span> X-Box One S</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="radio" name="console" value="Dendy">
+                                    <span class="booking__check-style"></span> Dendy</label>
                             </fieldset>
 
                             <fieldset class="booking__console">
                                 <legend class="booking__description">Настольные игры</legend>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Jenga"> Jenga</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Monopoly"> Monopoly</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Манчкнин"> Манчкин</label>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Alias"> Alias</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Jenga">
+                                        <span class="booking__game-style"></span>Jenga</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Monopoly">
+                                        <span class="booking__game-style"></span>Monopoly</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Манчкнин">
+                                        <span class="booking__game-style"></span>Манчкин</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="boardGames" value="Alias">
+                                        <span class="booking__game-style"></span>Alias</label>
                             </fieldset>
                                 
                             <fieldset class="booking__console">
                                 <legend class="booking__description"> Дополнительно</legend>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" checked name="optional" value="karaoke">Караоке</label></li>
-                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="optional" value="VR">VR</label></li>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" checked name="optional" value="karaoke">
+                                        <span class="booling__addition"></span>Караоке</label>
+                                    <label><input class="booking__checkbox booking__label-item" type="checkbox" name="optional" value="VR">
+                                        <span class="booling__addition"></span>VR</label>
                             </fieldset>
                         </fieldset>
 
@@ -153,7 +163,7 @@ style</a></li>
                                 <div class="booking__select-position">
                                     <div class="booking__collon1">
                                         <div class="booking__set booking__select-position">
-                                            <label for="date"> <input class="booking__date-time" type="date" name="date" id="date" required></label>
+                                            <label for="date"><input class="booking__date-time" type="date" name="date" id="date" required></label>
                                             <label for="time"><input class="booking__date-time" type="time" name="time" id="time" required></label>
                                         </div>
 

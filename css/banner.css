@@ -40,6 +40,30 @@
   bottom: 90px;
 }
 
+.banner__btn:hover svg circle {
+  fill: #FFFFFF;
+  transition: stroke .5s;
+}
+
+.banner__btn:hover svg rect {
+  fill: #6C0287;
+  transition: fill 1s;
+}
+
+.banner__btn:focus  {
+  fill: rgb(255, 127, 240);
+}
+
+.banner__btn:active svg circle {
+  fill: #CD06FF;
+  stroke: #CD06FF;
+}
+
+.banner__btn:active svg rect {
+  fill: #FFFFFF;
+}
+
+
 .banner__description {
   display: flex;
   align-items: flex-end;
@@ -69,7 +93,7 @@
   }
 
 
-  .banner__book {
+.banner__book {
   border-radius: 10px;
   background: #6C0287;
   font-size: 26px;
@@ -78,6 +102,16 @@
   text-transform: uppercase;
   padding: 27px 69px;
   }
+
+.banner__book:hover, .banner__book:focus {
+  background: #840AA3;
+}
+
+.banner__book:active {
+  background: #640AA3;
+}
+
+
 
 .banner__four {
   color: #CD06FF;
