@@ -19,6 +19,13 @@
 .holiday__picture {
   position: relative;
   display: inline-block;
+  transition: 0.5s;
+}
+
+.holiday__picture:hover {
+  transform:scale(1.1, 1.1);
+  transition: 1s;
+  z-index: 1;
 }
 
 .holiday__images {
