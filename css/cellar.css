@@ -61,12 +61,10 @@
   display: inline-block;
 }
 
+
+
 .cellar__item:not(:last-child) {
   margin-right: 28px;
-}
-
-.cellar__adress {
-
 }
 
 .cellar__map {
@@ -91,4 +89,31 @@
   line-height: 16px;
   text-align: right;
   margin: 0;
+}
+
+.cellar__link {
+  display: block;
+  height: 50px;
+  width: 50px;
+  color: #FFF;
+  outline: 2px solid transparent;
+  border-radius: 50%;
+  outline-offset: 3px;
+  transition-property: color, outline-color;
+  transition-duration: 0.4s 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.cellar__link:hover {
+  color: #EADEED;
+  transition-duration: 0.2s;
+}
+
+.cellar__link:focus {
+  color: #EADEED;
+  outline-color: #dd57ff;
+}
+
+.cellar__link:active {
+  color: #CD06FF;
 }

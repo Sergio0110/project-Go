@@ -48,18 +48,21 @@ fieldset {
 .booking__hall-button:hover {
   border: 3px solid #640AA3;
   background: #EADEED;
+  transition-duration: 0.4s;
 }
 
 .booking__hall-button:focus {
   border: 3px solid #640AA3;
   background: #FFF;
   color:#211E1E;
+  transition-duration: 0.7s;
 }
 
 .booking__hall-button:active {
   border: 3px solid #FFF;
   background: #6C0287;
   color:#FFFFFF;
+  transition-duration: 0.7s;
 }
 
 .booking__check {
@@ -153,18 +156,21 @@ fieldset {
   border: 3px solid #6C0287;
   color:#6C0287;
   background: #EADEED;
+  transition-duration: 0.2s;
 }
 
 .booking__button:active {
   background: #EADEED;
   color: #6C0287;
   border: none;
+  transition-duration: 0.7s;
 }
 
 .booking__button:focus {
   border: 3px solid #6C0287;
   background: #FFF;
   color: #6C0287;
+  transition-duration: 0.7s;
 }
 
 .booking__set {
@@ -280,3 +286,4 @@ fieldset {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
