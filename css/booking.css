@@ -100,6 +100,7 @@ fieldset {
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 24px;
+  transform: translateX(-27%);
 }
 
 .booking__data {
@@ -138,10 +139,10 @@ fieldset {
 
 .booking__button {
   border-radius: 10px;
-  background: #6C0287;
+  background: #FFFFFF;
   width: 250px;
   height: 55px;
-  color: #FFFFFF;
+  color: #6C0287;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -149,14 +150,22 @@ fieldset {
   text-transform: uppercase;
 }
 
-.booking__button:hover, .booking__button:focus {
-  background: #840AA3;
-  color:#FFFFFF
+.booking__button:hover {
+  border: 3px solid #6C0287;
+  color:#6C0287;
+  background: #EADEED;
 }
 
 .booking__button:active {
-  background: #640AA3;
-  color: #FFF;
+  background: #EADEED;
+  color: #6C0287;
+  border: none;
+}
+
+.booking__button:focus {
+  border: 3px solid #6C0287;
+  background: #FFF;
+  color: #6C0287;
 }
 
 .booking__set {
