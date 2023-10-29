@@ -1,5 +1,5 @@
 .booking {
-  background-color: #440F51;
+  background-color: var(--main-color);
   padding: 80px 0;
 }
 
@@ -46,13 +46,13 @@ fieldset {
 }
 
 .booking__hall-button:hover {
-  border: 3px solid #640AA3;
+  border: 3px solid var(--border-color);
   background: #EADEED;
-  transition-duration: 0.4s;
+  transition: 0.3s;
 }
 
 .booking__hall-button:focus {
-  border: 3px solid #640AA3;
+  border: 3px solid var(--border-color);
   background: #FFF;
   color:#211E1E;
   transition-duration: 0.7s;
@@ -193,7 +193,7 @@ fieldset {
 }
 
 .booking__people:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--order-frame-color);
   background: #FFF;
 }
 
@@ -212,7 +212,7 @@ fieldset {
   padding-left: 10px;
 }
 .booking__date-time:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--order-frame-color);
   background: #FFF;
 }
 
