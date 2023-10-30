@@ -32,3 +32,11 @@
   max-width: 100%;
   height: auto;
 }
+
+.holiday__audio-transform {
+  transform: translate(0,70px);
+} 
+
+.holiday__text-transform {
+  transform: translate(0,70px);
+}
