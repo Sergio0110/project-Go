@@ -43,7 +43,7 @@
 .reviews__text {
   display: inline-block;
   width: 674px;
-  color: #FFF;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;

@@ -2,7 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #FFF;
+  color: var(--white-color);
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
@@ -95,7 +95,7 @@
   display: block;
   height: 50px;
   width: 50px;
-  color: #FFF;
+  color: var(--white-color);
   outline: 2px solid transparent;
   border-radius: 50%;
   outline-offset: 3px;
@@ -105,15 +105,15 @@
 }
 
 .cellar__link:hover {
-  color: #EADEED;
+  color: var(--cellar-white-color);
   transition-duration: 0.2s;
 }
 
 .cellar__link:focus {
-  color: #EADEED;
-  outline-color: #dd57ff;
+  color: var(--cellar-white-color);
+  outline-color: var(--cell-outline-col);
 }
 
 .cellar__link:active {
-  color: #CD06FF;
+  color: var(--cell-link);
 }

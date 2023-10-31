@@ -41,12 +41,12 @@
 }
 
 .banner__btn:hover svg circle {
-  fill: #FFFFFF;
+  fill: var(--color-circle);
   transition: stroke .5s;
 }
 
 .banner__btn:hover svg rect {
-  fill: #6C0287;
+  fill: var(--banner-book-fill);
   transition: fill 1s;
 }
 
@@ -57,12 +57,12 @@
 }
 
 .banner__btn:active svg circle {
-  fill: #CD06FF;
-  stroke: #CD06FF;
+  fill: var(--banner-btn-stroke-fill);
+  stroke: var(--banner-btn-stroke-fill);
 }
 
 .banner__btn:active svg rect {
-  fill: #FFFFFF;
+  fill: var(--color-circle);
 }
 
 
@@ -97,7 +97,7 @@
 
 .banner__book {
   border-radius: 10px;
-  background: #6C0287;
+  background: var(--banner-book-fill);
   font-size: 26px;
   font-weight: 700;
   line-height: 30px;
@@ -106,18 +106,16 @@
   }
 
 .banner__book:hover, .banner__book:focus {
-  background: #840AA3;
+  background: var(--color-btn);
   transition-duration: 0.5s;
 }
 
 .banner__book:active {
-  background: #640AA3;
+  background: var(--background-btn-color);
 }
 
-
-
 .banner__four {
-  color: #CD06FF;
+  color: var(--banner-btn-stroke-fill);
   font-family: Arial;
   font-size: 100px;
   font-style: normal;
@@ -128,7 +126,7 @@
   }
   
 .banner__new {
-  color: #CD06FF;
+  color: var(--banner-btn-stroke-fill);
   font-family: Arial;
   font-size: 75px;
   font-style: normal;

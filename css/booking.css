@@ -21,7 +21,7 @@ fieldset {
 }
 
 .booking__subtitle {
-  color: #FFF;
+  color: var(--main-text-color);
   text-align: center;
   font-family: Arial;
   font-size: 24px;
@@ -39,29 +39,29 @@ fieldset {
   text-transform: uppercase;
   width: 250px;
   height: 55px;
-  color: #211E1E;
+  color: var(--booking-last-color);
   border-radius: 8px;
-  background: #FFF;
+  background: var(--main-text-color);
   padding-top: 7px;
 }
 
 .booking__hall-button:hover {
   border: 3px solid var(--border-color);
-  background: #EADEED;
+  background: var(--booking-bcgr-white-color);
   transition: 0.3s;
 }
 
 .booking__hall-button:focus {
   border: 3px solid var(--border-color);
-  background: #FFF;
-  color:#211E1E;
+  background: var(--main-text-color);
+  color:var(--booking-last-color);
   transition-duration: 0.7s;
 }
 
 .booking__hall-button:active {
-  border: 3px solid #FFF;
-  background: #6C0287;
-  color:#FFFFFF;
+  border: 3px solid var(--main-text-color);
+  background: var(--booking-bord-col-backg);
+  color: var(--booking-backgr-color);
   transition-duration: 0.7s;
 }
 
@@ -141,10 +141,10 @@ fieldset {
 
 .booking__button {
   border-radius: 10px;
-  background: #FFFFFF;
+  background: var(--booking-backgr-color);
   width: 250px;
   height: 55px;
-  color: #6C0287;
+  color: var(--booking-bord-col-backg);
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -153,23 +153,23 @@ fieldset {
 }
 
 .booking__button:hover {
-  border: 3px solid #6C0287;
-  color:#6C0287;
-  background: #EADEED;
+  border: 3px solid var(--booking-bord-col-backg);
+  color:var(--booking-bord-col-backg);
+  background: var(--booking-bcgr-white-color);
   transition-duration: 0.2s;
 }
 
 .booking__button:active {
-  background: #EADEED;
-  color: #6C0287;
+  background: var(--booking-bcgr-white-color);
+  color: var(--booking-bord-col-backg);
   border: none;
   transition-duration: 0.7s;
 }
 
 .booking__button:focus {
-  border: 3px solid #6C0287;
-  background: #FFF;
-  color: #6C0287;
+  border: 3px solid var(--booking-bord-col-backg);
+  background: var(--main-text-color);
+  color: var(--booking-bord-col-backg);
   transition-duration: 0.7s;
 }
 
@@ -184,7 +184,7 @@ fieldset {
   width: 300px;
   height: 52px;
   padding-left: 20px;
-  color: #211E1E;
+  color: var(--booking-last-color);
   font-family: Arial;
   font-size: 18px;
   font-style: normal;
@@ -194,11 +194,11 @@ fieldset {
 
 .booking__people:focus {
   border: 2px solid var(--order-frame-color);
-  background: #FFF;
+  background: var(--main-text-color);
 }
 
 .booking__people-number {
-  color: #211E1E;
+  color: var(--booking-last-color);
   font-family: Arial;
   font-size: 18px;
   font-style: normal;
@@ -213,7 +213,7 @@ fieldset {
 }
 .booking__date-time:focus {
   border: 2px solid var(--order-frame-color);
-  background: #FFF;
+  background: var(--main-text-color);
 }
 
 /* =================================== */
@@ -231,7 +231,7 @@ fieldset {
   position: absolute;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--border-color2);
   margin-left: -50px;
   border-radius: 50%;
 }
@@ -240,7 +240,7 @@ fieldset {
   content: "";
   width: 27px;
   height: 27px;
-  background-color: #fff;
+  background-color: var(--main-text-color);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -253,7 +253,7 @@ fieldset {
   position: absolute;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--border-color2);
   margin-left: -50px;
 }
 
@@ -261,7 +261,7 @@ fieldset {
   content: "";
   width: 27px;
   height: 27px;
-  background-color: #fff;
+  background-color: var(--main-text-color);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -273,7 +273,7 @@ fieldset {
   position: absolute;
   width: 33px;
   height: 33px;
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--border-color2);
   margin-left: -50px;
 }
 
@@ -281,7 +281,7 @@ fieldset {
   content: "";
   width: 27px;
   height: 27px;
-  background-color: #fff;
+  background-color: var(--main-text-color);
   position: absolute;
   top: 50%;
   left: 50%;

@@ -16,7 +16,7 @@
 }
 
 .menu__text {
-  color: #FFF;
+  color: var(--menu-text-color);
   font-family: Arial;
   font-size: 22px;
   font-style: normal;
@@ -28,12 +28,12 @@
 
 .menu__text:hover {
   font-size: 22px;
-  color: rgb(197, 87, 244);
+  color: var(--menu-color);
   transition-duration: 0.5s;
 }
 
 .menu__button {
-  color: #FFF;
+  color: var(--menu-text-color);
   font-family: Arial;
   font-size: 22px;
   font-style: normal;
@@ -41,26 +41,26 @@
   line-height: 30px;
   text-transform: uppercase;
   border-radius: 10px;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--hover-button);
   width: 280px;
   height: 55px;
-  background-color: rgba(28,28,28,0)
+  background-color: var(--backgr-color-button);
 }
 
 .menu__button:hover {
   border-radius: 10px;
-  border: 3px solid #6C0287;
-  background: #6C0287;
+  border: 3px solid var(--hover-button);
+  background: var(--hover-button);
   transition-duration: 0.5s;
 }
 
 .menu__button:active {
   border-radius: 10px;
-  border: 1px solid #000;
-  background: #640AA3;
+  border: 1px solid var(--border-button-active);
+  background: var(--backgr-button-active);
 }
 
 .menu__button:focus {
   border-radius: 10px;
-  background: #6C0287;
+  background: var(--button-focus);
 }

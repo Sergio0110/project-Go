@@ -1,5 +1,60 @@
+:root {
+  --general-color: #1B1A1B;
+  --general-text: #FFFFFF;
+}
+
+.menu {
+  --menu-color: #CD06FF;
+  --menu-text-color: #FFF;
+  --hover-button:#6C0287;
+  --backgr-color-button:#1B1A1B;
+  --backgr-button-active: #640AA3;
+  --border-button-active:#000;
+  --button-focus:#6C0287;
+  --background-btn-color:#640AA3;
+}
+
+.banner {
+  --color-circle:#FFFFFF;
+  --banner-book-fill:#6C0287;
+  --banner-btn-stroke-fill: #CD06FF;
+  --color-btn: #840AA3;
+}
+
 .booking {
   --main-color: #440F51;
   --border-color: #640AA3;
   --order-frame-color:#CD06FF;
+  --main-text-color:#FFF;
+  --booking-last-color:#211E1E;
+  --booking-bcgr-white-color:#EADEED;
+  --booking-bord-col-backg:#6C0287;
+  --booking-backgr-color:#FFFFFF;
+  --border-color2: #CD06FF;
+}
+
+.cellar {
+  --white-color: #FFF;
+  --cellar-white-color: #EADEED;
+  --cell-link:#CD06FF;
+  --cell-outline-col:#dd57ff;
+}
+
+.faq {
+  --faq-bcc:#440F51;
+  --faq-color:#ffffff;
+  --not-last:#f4eff5;
+  --nth-odd:#121111;
+}
+
+.halls {
+  --main-text:#FFF;
+}
+
+.reviews {
+  --text-color:#FFF;
+}
+
+.slogan {
+  --slogan-color:#6C0287;
 }

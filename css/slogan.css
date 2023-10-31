@@ -6,20 +6,19 @@
   line-height: 50px;
   text-transform: uppercase;
   margin-bottom: 85px;
-
 }
+
 .about__tagline:after {
   content: '"';
-  color:#6C0287;
+  color:var(--slogan-color);
   font-weight: 900;
   line-height: 50px;
   text-transform: uppercase;
-  
-  
 }
+
 .about__tagline:before {
   content: '"';
-  color:#6C0287;
+  color:var(--slogan-color);
   font-weight: 900;
   line-height: 50px;
   text-transform: uppercase;
