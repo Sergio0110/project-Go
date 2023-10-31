@@ -3,12 +3,25 @@
   margin: 0 auto;
 }
 
-.reviews__samoilov-img {
-  width: 280px;
-  height: 280px;
+.reviews__image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.reviews__image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
+  z-index: 1;
   border-radius: 140px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%), url("../img/samoilov.jpg");
-  filter: opacity(80%);
+}
+
+.reviews__image-container img {
+  z-index: 2;
 }
 
 .reviews__grigorieva-img {
