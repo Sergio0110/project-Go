@@ -15,7 +15,7 @@
 }
 
 .faq__item:nth-child(odd){
-    background-color: var(-not-last);
+    background-color: var(--not-last);
     color: var(--nth-odd);
     background-image: url("../img/open-purple.svg");
     background-repeat: no-repeat;

@@ -18,6 +18,7 @@
   background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
   z-index: 1;
   border-radius: 140px;
+  
 }
 
 .reviews__image-container img {
@@ -72,6 +73,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
+  font-size: 0;
 }
 
 .reviews__item {
